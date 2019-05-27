@@ -1,0 +1,165 @@
+/*------------------------------*/
+/*   Css Reset                  */
+/*------------------------------*/
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,
+p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,
+dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,
+tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,
+label,legend,table,caption,tbody,tfoot,thead,tr,th,td {
+    margin:0; 
+	padding:0; 
+	border:0; 
+	outline:0; 
+	font-size:100%; 
+	vertical-align:baseline;
+}
+body {
+	font-family: helvetica neue,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #333;
+    background-color: #fff;
+	margin:0;
+	padding:0;
+}
+ul,ol { list-style:none; }
+img,fieldset { border:none; }
+a {text-decoration:none;}
+a:hover { text-decoration:none; }
+.skip { position:absolute; left:-9999px; }
+article,aside,details,figcaption,figure,footer,
+header,hgroup,main,nav,section,summary { display: block; }
+figure { margin:0; padding:0; }
+.clear {
+	clear: both;
+	height:0;
+	width:100%;
+	overflow:hidden;
+}
+embed, iframe, object, video { max-width: 100%; }
+input, textarea { -webkit-appearance: none; -webkit-border-radius: 0; }
+html { -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+img { max-width: 100%; height: auto; display: block; }
+a {
+	-webkit-transition: all .5s ease-out;
+	-moz-transition: all .5s ease-out;
+	-ms-transition: all .5s ease-out;
+	-o-transition: all .5s ease-out;
+	transition: all .5s ease-out;
+}
+*, *:before, *:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+/*------------------------------*/
+/*   Page structure             */
+/*------------------------------*/
+#wrapper { 
+	width: 100%; 
+	background: #005ab6;
+}
+.container { position: relative; }
+.body-content { 
+	width: 83.3333333333%; 
+	background: url(assets/images/bg-img.png);
+	padding: 54px 96px 100px 96px;
+	color: #494949;
+	min-height: 700px;
+}
+/*------------------------------*/
+/*   Header                     */
+/*------------------------------*/
+.sign-up-content {
+	padding-right: 25px;
+}
+.sign-up-content h2 {
+	font-family: raleway,sans-serif;
+    font-weight: 600!important;
+    line-height: 1;
+    font-size: 40px;
+    letter-spacing: 1px;
+    padding-top: 14px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 88%;
+}
+.sign-up-content span {
+	color: rgb(255, 153, 0);
+}
+.sign-up-content p,
+.sign-up-content blockquote  {
+	font-family: lato,arial,sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    width: 75%;
+    line-height: 1.4;
+    text-align: left;   
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.sign-up-content blockquote  {
+	margin-top: 4em;
+}
+.sign-up-content form {
+	width: 75%;
+	margin-top: 48px;
+	display: flex;
+}
+.sign-up-content form .email-field {
+	border-radius: 3px 0 0 3px;
+    width: 60%;
+    height: 45px;
+    color: #494949;
+    border: 2px solid #005ab6;
+    padding: 0 10px;
+    text-align: center;
+}
+.submit-btn {
+	width: 39%;
+    background-color: rgb(0, 90, 182);
+    height: 45px;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    color: rgb(255, 255, 255);
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    border-image: initial;
+    border-radius: 0px 3px 3px 0px;
+    cursor: pointer;
+    -webkit-transition: all .5s ease-out;
+	-moz-transition: all .5s ease-out;
+	-ms-transition: all .5s ease-out;
+	-o-transition: all .5s ease-out;
+	transition: all .5s ease-out;
+}
+.submit-btn:hover {
+	background: rgb(42, 121, 203);
+}
+.sign-up-content h6 {
+	font-size: 18px;
+    font-weight: 300;
+    text-transform: none;
+    letter-spacing: 2px;
+    line-height: 1.2;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.feature-img {
+	position: absolute;
+	top: 45px;
+	right: 0;
+	max-width: 600px;
+}
+.tara-na-contact {
+	position: absolute;
+	bottom: 10px;
+	width: 100%;
+	text-align: center;
+}
+.tara-na-contact a {
+	color: #000;
+}
